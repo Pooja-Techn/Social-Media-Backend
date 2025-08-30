@@ -13,7 +13,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'http://localhost:3000', // your frontend origin
+  origin: 'https://one-army.netlify.app/', // your frontend origin
   credentials: true
 }));
 app.use(express.json());
